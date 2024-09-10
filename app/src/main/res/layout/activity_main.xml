@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstActivityContext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pistachio_green"
+        android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/PageTitleAndVersionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FirstPageVersionNumber"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/FirstPageTextviewID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FirstPageTextView1"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/firstPageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:hint="@string/FirstPageEditText1">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/firstPageButton"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:backgroundTint="@color/dark_pink"
+                android:text="@string/FirstPageButton" />
+
+            <TextView
+                android:id="@+id/NameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="52dp" />
+
+            <Button
+                android:id="@+id/moveToNews"
+                android:layout_width="238dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#FF9800"
+                android:text="@string/FirstPageMoveToNewsButton" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:minHeight="50dp"
+                android:minWidth="200dp"
+                android:progress="1" />
+        </LinearLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/navigationdrawer"
+            app:itemIconTint="@color/orange"
+            app:itemIconSize="40dp"
+            app:itemTextColor="@color/dark_pink"
+            app:itemShapeFillColor="@color/yellow" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

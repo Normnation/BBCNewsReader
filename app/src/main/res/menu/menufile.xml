@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/firstActivityIcon"
+        android:title="Main Page"
+        android:icon="@drawable/home2"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+
+    <item android:id="@+id/secondActivityIcon"
+        android:title="secondActivityTitle"
+        android:icon="@drawable/news2"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+
+
+    <item android:id="@+id/thirdActivityIcon"
+        android:title="thirdActivityTitle"
+        android:icon="@drawable/favorite2"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+
+
+
+
+    <item android:id="@+id/pageDescriptionIcon"
+        android:title="thirdActivityTitle"
+        android:icon="@drawable/info"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="ButtonReq">Amenez-moi à l\'article!</string>
+    <string name="EditTextReq">Ceci est un editText</string>
+    <string name="start_it_up" translatable="false">Opening</string>
+    <string name="shut_it_down" translatable="false">Closing</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="Titleofarticle">Titre de l\'article</string>
+    <string name="Descriptionofarticle">Descriptif de l\'article</string>
+    <string name="Linktoarticle">Lien vers l\'article</string>
+    <string name="Dateofarticle">Date de l\'article</string>
+    <string name="FirstPageTextView1"> Bienvenue sur la première page !</string>
+    <string name="FirstPageEditText1"> Entrez votre nom!</string>
+    <string name="FirstPageButton"> Confirmer le nom</string>
+    <string name="FirstPageMoveToNewsButton"> Amenez-moi aux nouvelles!</string>
+    <string name="FirstPageVersionNumber"> Page principale - Version 7.1.3</string>
+    <string name="SecondPageVersionNumber"> Page de fil d\'actualité - Version 7.1.3</string>
+    <string name="ThirdPageVersionNumber"> Page des favoris - Version 7.1.3</string>
+</resources>

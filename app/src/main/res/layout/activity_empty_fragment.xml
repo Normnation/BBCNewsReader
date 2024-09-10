@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".emptyFragmentActivity">
+
+    /**Frame layout for the fragment to be loaded into. Id of FrameLayout, width and height taking up the entire screen. Context is the emptyFragmentActivity class.  */
+</FrameLayout>
+
