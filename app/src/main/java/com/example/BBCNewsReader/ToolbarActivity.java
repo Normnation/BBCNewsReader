@@ -1,4 +1,4 @@
-package com.example.finalprojectreader;
+package com.example.BBCNewsReader;
 
 
 import android.content.Intent;
@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.BBCNewsReader.R;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;

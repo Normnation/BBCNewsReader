@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.finalprojectreader">
+    package="com.example.BBCNewsReader">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,18 +11,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FinalProjectReader">
+        android:theme="@style/Theme.BBCNewsReader">
         <activity
-            android:name=".emptyFragmentActivity"
+            android:name="com.example.BBCNewsReader.emptyFragmentActivity"
             android:exported="false" />
         <activity
-            android:name=".NewsPage"
+            android:name="com.example.BBCNewsReader.NewsPage"
             android:exported="false" />
         <activity
-            android:name=".dbOperations_LV"
+            android:name="com.example.BBCNewsReader.dbOperations_LV"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.BBCNewsReader.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -9,6 +9,5 @@
     android:layout_height="match_parent"
     tools:context=".emptyFragmentActivity">
 
-    /**Frame layout for the fragment to be loaded into. Id of FrameLayout, width and height taking up the entire screen. Context is the emptyFragmentActivity class.  */
 </FrameLayout>
 

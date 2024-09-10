@@ -1,4 +1,4 @@
-package com.example.finalprojectreader;
+package com.example.BBCNewsReader;
 
 import android.content.Intent;
 import android.database.Cursor;
